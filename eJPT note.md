@@ -422,7 +422,3 @@ import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s
 
 ## programming examples
 port scanner examples:
-
-[python simple tcp scan example](https://github.com/cocomelonc/ejpt/blob/master/scanner.py)
-
-[golang simple tcp scan example](https://github.com/cocomelonc/ejpt/blob/master/scanner.go)
