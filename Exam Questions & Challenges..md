@@ -1,114 +1,114 @@
 eJPT Exam Questions & Challenges 
+✅ <span style="color:limegreen">Answered Questions</span>
 
-----------------------------------------------------------------------------------------------------------------------------
-QUESTIONS WITH ANSWERS:
-----------------------------------------------------------------------------------------------------------------------------
+    What is the IP address of the host running SAMBA?
+    <span style="color:deepskyblue">192.168.100.52</span>
 
-1. Q: What is the IP address of the host running SAMBA?
-A: 192.168.100.52
+    What is the IP address of the host running WordPress?
+    <span style="color:deepskyblue">192.168.100.50</span>
 
-2. Q: What is the IP address of the host running WordPress?
-A: 192.168.100.50
+    What version of MySQL is running on the system hosting a Drupal site?
+    <span style="color:deepskyblue">MySQL 5.5.5</span>
 
-3. Q: What version of MySQL is running on the system hosting a Drupal site?
-A: MySQL 5.5.5
+    How many hosts on the DMZ network are running a web server on port 80?
+    <span style="color:deepskyblue">4</span>
 
-4. Q: How many hosts on the DMZ network are running a web server on port 80?
-A: 4
+    What Linux distribution is running on the host running the Drupal site?
+    <span style="color:deepskyblue">Ubuntu</span>
 
-5. Q: What Linux distribution is running on the host running the Drupal site?
-A: Ubuntu
+    What services does Syntex provide to companies?
+    <span style="color:deepskyblue">Workflow Development</span>
 
-6. Q: What services does Syntex provide to companies?
-A: Workflow Development
+    What is the email of the admin user on the Drupal site?
+    <span style="color:deepskyblue">admin@syntex.com</span>
 
-7. Q: What is the email of the admin user on the Drupal site?
-A: admin@syntex.com
+    What is the name of the active theme on the WordPress site?
+    <span style="color:deepskyblue">spintech</span>
 
-8. Q: What is the name of the active theme on the WordPress site?
-A: spintech
+    How many systems on the target network have FTP servers with anonymous access enabled?
+    <span style="color:deepskyblue">2</span>
 
-9. Q: How many systems on the target network have FTP servers with anonymous access enabled?
-A: 2
+    How many user accounts can be enumerated from the SAMBA server running on the system hosting Drupal?
+    <span style="color:deepskyblue">3</span>
 
-10. Q: How many user accounts can be enumerated from the SAMBA server running on the system hosting Drupal?
-A: 3
+    What type of vulnerability can be exploited on the Drupal site?
+    <span style="color:orangered">RCE (Drupalgeddon 2)</span>
 
-11. Q: What type of vulnerability can be exploited on the Drupal site?
-A: RCE (Drupalgeddon 2)
+    Which one of the following meterpreter commands can be used to add a network route?
+    <span style="color:deepskyblue">autoroute</span>
 
-12. Q: Which one of the following meterpreter commands can be used to add a network route?
-A: autoroute
+    What is the subnet of the internal network?
+    <span style="color:deepskyblue">192.168.0.50</span>
 
-13. Q: What is the subnet of the internal network?
-A: 192.168.0.50
+    What is the password of the user account "dbadmin" on the Linux server hosting Drupal?
+    <span style="color:orangered">sayang</span>
 
-14. Q: What is the password of the user account "dbadmin" on the Linux server hosting Drupal?
-A: sayang
+    What is the CVSS V3.x rating for the Drupalgeddon2 vulnerability?
+    <span style="color:orangered">9.8</span>
 
-15. Q: What is the CVSS V3.x rating for the Drupalgeddon2 vulnerability?
-A: 9.8
+    What host within the DMZ network can be exploited via command injection?
+    <span style="color:orangered">WINSERVER-02</span>
 
-16. Q: What host within the DMZ network can be exploited via command injection?
-A: WINSERVER-02
+    How many Drupal accounts exist on the Drupal site?
+    <span style="color:deepskyblue">4</span>
 
-17. Q: How many Drupal accounts exist on the Drupal site?
-A: 4
+    What version of WordPress is running on WINSERVER-01?
+    <span style="color:deepskyblue">5.9.3</span>
 
-18. Q: What version of WordPress is running on WINSERVER-01?
-A: 5.9.3
+    How many plugins are installed on the WordPress site?
+    <span style="color:deepskyblue">3</span>
 
-19. Q: How many plugins are installed on the WordPress site?
-A: 3
+    What WordPress file stores the database configuration?
+    <span style="color:deepskyblue">wp-config.php</span>
 
-20. Q: What WordPress file stores the database configuration?
-A: wp-congif.php
+    Excluding the guest account, how many user accounts are present on WINSERVER-01?
+    <span style="color:deepskyblue">4</span>
 
-21. Q: Excluding the guest account, how many user accounts are present on WINSERVER-01?
-A: 4
+    What is the total number of open TCP ports running on WINSERVER-02?
+    <span style="color:deepskyblue">14</span>
 
-22. Q: What is the total number of open TCP ports running on WINSERVER-02?
-A: 14
+    What Windows utility can be used to download files from a remote web server?
+    <span style="color:deepskyblue">certutil</span>
 
-23. Q: What Windows utility can be used to download files from a remote web server?
-A: certutil
+🧪 <span style="color:gold">Questions with Methodology</span>
 
-----------------------------------------------------------------------------------------------------------------------------
-QUESTIONS WITH METHODS:
-----------------------------------------------------------------------------------------------------------------------------
+    How many hosts on the DMZ network are running Windows?
+    <span style="color:gold">Method:</span> Check OS fingerprinting results from nmap.
 
-1. Q: How many hosts on the DMZ network are running Windows?
-Method: Check from nmap result
+    How many hosts on the DMZ network are running a database server?
+    <span style="color:gold">Method:</span> Scan ports 3306, 5432, 1433, 1521, 27017.
 
-2. Q: How many hosts on the DMZ network are running a database server?
-Method: Scanning ports 3306, 5432, 1433, 1521, and 27017 of all active hosts
+    What version of Windows is running on the host running WordPress?
+    <span style="color:deepskyblue">Windows Server 2012</span>
 
-3. Q: What version of Windows is running on the host running WordPress?
-Method: Check from nmap result (Windows Server 2012)
+    What is the IP address of the host vulnerable to an SSH brute force attack?
+    <span style="color:gold">Method:</span> Identify host with open port 22 and weak credentials.
 
-4. Q: What is the IP address of the host vulnerable to an SSH brute force attack?
-Method: Check nmap result for host with open port 22
+    What is the IP address of the FTP server that contains a file called updates.txt?
+    <span style="color:deepskyblue">192.168.100.52</span>
 
-5. Q: What is the IP address of the FTP server that contains a file called updates.txt?
-Method: Check from nmap result (192.168.100.52)
+    What host on the DMZ network is running a database server on port 3307?
+    <span style="color:deepskyblue">192.168.100.50</span>
 
-6. Q: What host on the DMZ network is running a database server on port 3307?
-Method: Check nmap result (192.168.100.50)
+❓ <span style="color:red">Unanswered Questions (Need Further Enumeration)</span>
 
-----------------------------------------------------------------------------------------------------------------------------
-QUESTIONS WITHOUT ANSWERS:
-----------------------------------------------------------------------------------------------------------------------------
+    What is the password of the user account "mary" on WINSERVER-03?
+    <span style="color:red">Requires credential dumping or cracking</span>
 
-1. Q: What is the password of the user account "mary" on WINSERVER-03?
+    What is the root password of the MySQL database on the server running Drupal?
+    <span style="color:red">Check my.cnf or memory scraping</span>
 
-2. Q: What is the root password of the MySQL database on the server running Drupal?
+    What user account is a member of the local administrators group on WINSERVER-03?
+    <span style="color:red">Run net localgroup administrators post-exploitation</span>
 
-3. Q: What user account is a member of the local administrators group on WINSERVER-03?
+    What is the hashing algorithm used to hash user account passwords on both Linux servers?
+    <span style="color:red">Inspect /etc/shadow – likely SHA-512 ($6$)</span>
 
-4. Q: What is the hashing algorithm used to hash user account passwords on both Linux servers?
+    What is the value of the flag C:\Users\mike\Documents\flag.txt?
+    <span style="color:red">Access host and read the file</span>
 
-5. Q: A system contains the file C:\Users\mike\Documents\flag.txt; what is the value of the flag?
+    What is the value of the flag /home/auditor/flag.txt on the Drupal server?
+    <span style="color:red">Local access needed</span>
 
-6. Q: The server hosting Drupal contains the file /home/auditor/flag.txt. What is the value of the flag?
-
-7. Q: What is the value of the flag C:\Users\Administrator\flag.txt on WINSERVER-03?
+    What is the value of the flag C:\Users\Administrator\flag.txt on WINSERVER-03?
+    <span style="color:red">Post-exploitation required</span>
